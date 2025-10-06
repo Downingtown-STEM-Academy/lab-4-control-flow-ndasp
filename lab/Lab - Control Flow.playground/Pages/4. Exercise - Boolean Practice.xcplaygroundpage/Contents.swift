@@ -38,6 +38,14 @@ let isWindy = true
 */
 
 //insert your code here!!
-
+let walkingWeather: Bool = !isRaining || (temp >= 82 || !isWindy)
+if walkingWeather {
+    print("I'm going for a walk!")
+}
 //insert print statements here!!
+//print("I will go for a walk for the first set of conditions")
+//print("I will not go for a walk for the second set of conditions")
+
+
+
 //: [Previous](@previous)  |  page 4 of 9  |  [Next](@next)

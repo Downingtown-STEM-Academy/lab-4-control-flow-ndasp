@@ -17,15 +17,18 @@ let number2 = 25
 */
 
 var largest: Int
+/*
 if number1 > number2 {
     largest = number1
 } else {
     largest = number2
 }
-
+*/
+largest = number1 > number2 ? number1 : number2
 print(largest)
-//print("The result for set 1 was:")
-//print()
+print("The result for set 1 was: 25, number 2 is largest")
+print("The result for set 2 was: 30 or number 1 is largest")
+print("The result for set 2 was: 30, or both were equally large")
 
 
 //: [Previous](@previous)  |  page 8 of 9  |  [Next](@next)
